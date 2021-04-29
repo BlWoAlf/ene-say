@@ -1,0 +1,21 @@
+.menu{
+    .list__item{
+        margin: 0 10px;
+    }
+    a{
+        display: flex;
+        align-items: flex-end;
+        height: 32px;
+        color: $primary-text-color;
+        text-decoration: underline;
+    }
+}
+
+.header__menu{
+    @extend %flex-center-row;
+    height: 110px;
+}
+
+.footer__menu{
+    margin-bottom: 36px;
+}

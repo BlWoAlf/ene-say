@@ -1,0 +1,94 @@
+$primary-font: 'Montserrat', sans-serif;
+
+$standart-text-size: 14px;
+$standart-style: normal;
+$standart-weight: normal;
+$header-wight: 900;
+
+$standart-text-line-height: 21px;
+$news-text-line-height: 17px;
+
+body{
+    font-family: $primary-font;
+    font-style: $standart-style;
+    font-weight: $standart-weight;
+    color: $standart-text-color;
+}
+
+.h1-header{
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 48px;
+    font-weight: $header-wight;
+    text-align: center;
+}
+.h3-header{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-weight: $standart-weight;
+    // letter-spacing: 1.8px; //шрифт не подходит
+}
+.h4-header{
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    font-weight: $standart-weight;
+    // letter-spacing: 1.8px; //шрифт не подходит
+}
+.h5-header{
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 16px;
+    font-weight: $standart-weight;
+    // letter-spacing: 2px; //шрифт не подходит
+}
+
+.text{
+    font-family: $primary-font;
+    font-size: $standart-text-size;
+    line-height: $standart-text-line-height;
+    margin-bottom: 16px;
+}
+
+.menu{
+    font-family: $primary-font;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.contacts{
+    font-family: $primary-font;
+    font-size: 18px;
+    line-height: 22px;
+}
+.header__contacts{
+    a{
+        text-align: right;
+    }
+}
+.footer__contacts{
+    a{
+        text-align: center;
+    }
+}
+
+.question-contacts{
+    font-family: $primary-font;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.text-block{
+    p, ul, li, a{
+        font-weight: 400;
+        font-size: $standart-text-size;
+        line-height: $standart-text-line-height;
+    }
+    p{
+        margin-bottom: 16px;
+    }
+}

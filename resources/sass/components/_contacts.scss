@@ -1,0 +1,22 @@
+.contacts{
+    a{
+        color: $alt-text-color;
+    }
+}
+
+.header__contacts{
+    @extend %flex-center-row;
+    height: 110px;
+    float: right;
+    margin-left: auto;
+    .list__item{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.footer__contacts{
+    .list__item{
+        @extend %flex-center-column;
+    }
+}

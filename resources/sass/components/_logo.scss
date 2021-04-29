@@ -1,0 +1,15 @@
+.logo__img{
+    width: 160px;
+    height: 110px;
+    img{
+        @extend %img-fill;
+    }
+}
+
+.header__logo{
+    margin-right: 50px;
+}
+
+.footer__logo{
+    margin-bottom: 15px;
+}

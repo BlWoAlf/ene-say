@@ -1,0 +1,9 @@
+.footer{
+    width: 100%;
+    min-height: 302px;
+    background: $primary-color;
+    padding: 0px 0px 43px 0px;
+}
+.footer__wrap{
+    @extend %flex-center-column;
+}

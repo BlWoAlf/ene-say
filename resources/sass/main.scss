@@ -1,0 +1,25 @@
+@import 'utils/variables';
+@import 'utils/placeholders';
+@import 'utils/functions';
+
+@import 'vendors/bootstrap';
+@import 'vendors/photoswipe';
+
+@import 'base/base';
+@import 'base/typography';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/content-section';
+@import 'layout/list';
+
+@import 'components/logo';
+@import 'components/menu';
+@import 'components/contacts';
+@import 'components/main-banner';
+@import 'components/food-menu-book';
+@import 'components/question-contacts';
+@import 'components/text-block';
+
+@import 'pages/menu-page';
