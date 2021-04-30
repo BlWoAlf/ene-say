@@ -26,7 +26,6 @@ class PageController extends Controller
     public function store(Request $request)
     {
         $item = new Page();
-        dd($request->all('page'));
         $item->fill($request->all()['page'])->save();
         return redirect()->route('adfm.pages.index');
     }
